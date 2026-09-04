@@ -21,4 +21,4 @@ Ce site présente mes projets, mes compétences et mon parcours.
 
 ## 📬 Me contacter
 
-* **Email :** llucasauclair0@gmail.com
+* **Email :** lucasauclair0@gmail.com
