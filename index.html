@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auclair Lucas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+        <!-- Navigation principale -->
+    <header>
+        <h3>Lucas Auclair</h3>
+        <nav class="nav-group">
+            <a href="#projets">Projets</a>
+            <a href="#a_propos">À propos</a>
+            <a href="#contact">Me contacter</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème">
+            🌙
+            </button>
+        </nav>
+    </header>
+    <!-- Presentation principale -->
+    <section id="hero">
+        <div class="hero-container">
+            <img src="image/1000015741.jpg" alt="Lucas" class="profile-pic">
+
+            <div class="hero-text-group">
+                <h1>Développeur Web Freelance &<br>Étudiant L3 informatique</h1>
+                <p>J'accompagne les artisans, TPE et indépendants dans la création de sites web sur-mesure, pensés pour développer leur visibilité et attirer de nouveaux clients.</p>
+                <div class="hero-buttons">
+                    <a href="#contact"><button class="btn-primary">Discuter d'un projet</button></a>
+                    <a href="#projets"><button class="btn-secondary">Voir mes projets</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Projets realises -->
+    <section id="projets">
+        <div class="projects-container">
+            <h2>Mes projets</h2>
+            <p class="section-subtitle">Des projets récents conçus sur-mesure pour offrir une présence en ligne claire, rapide et rassurante.</p>
+            
+            <div class="projects-grid">
+            
+            <!-- Projet 1 : Média'Maux -->
+            <a href="https://mediamaux.com" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-image">
+                    <img src="image/mediamaux.png" alt="Aperçu du site Média'Maux">
+                </div>
+
+                <div class="project-info">
+                    <h3>Média'Maux</h3>
+                    <span class="project-category">Site vitrine — Éducatrice spécialisée</span>
+                    <p>Un site chaleureux présentant les activités de médiation animale, pensé pour rassurer et faciliter la prise de contact.</p>
+                    
+                    <div class="technologies">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </a>
+
+            <article class="project-card">
+                <div class="project-image">
+                <img src="image/en_developpement.jpg" alt="Aperçu du site AC Elec">
+                </div>
+
+                <div class="project-info">
+                <h3>AC Elec</h3>
+                <span class="project-category">Site vitrine — Artisan électricien</span>
+                <p>Un site simple et efficace pour présenter les services d'électricité et faciliter la prise de contact direct.</p>
+                
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                </div>
+            </article>
+
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Competences -->
+    <section id="a_propos">
+    <div class="about-container">
+        <h2>À propos de moi</h2>
+        <p class="section-subtitle">
+        Étudiant en L3 informatique et développeur web freelance, j'accompagne les artisans, indépendants et TPE dans la création de sites web sur-mesure. Rigoureux et attentif aux besoins de chaque client, je crée des solutions adaptées à leurs exigences pour leur offrir un résultat concret.
+        </p>
+
+        <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Front-end</h3>
+            <div class="technologies">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <h3>Back-end</h3>
+            <div class="technologies">
+            <span>PHP</span>
+            <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <h3>Performance</h3>
+            <p>Optimisation des temps de chargement et de l'expérience utilisateur.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>SEO</h3>
+            <p>Optimisation pour la visibilité sur les moteurs de recherche.</p>
+        </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <!-- Formulaire de contact -->
+    <section id="contact">
+        <h2>Une idée de projet ?</h2>
+        <p class="section-subtitle">Discutons de votre site, sans engagement.</p>
+        <form action="https://formspree.io/f/xoeqjzjb" method="POST">
+            <label for="name">Nom et prénom</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required>
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
